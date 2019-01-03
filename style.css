@@ -1,0 +1,17 @@
+
+div {
+	display: flex;
+}
+
+
+.character {
+	width: 450px;
+	height: 450px;
+	margin: auto;
+	align-items: center;
+
+}
+
+.btn-group {
+	display: flex;
+}
