@@ -1,10 +1,16 @@
 
 
-
 class tamagotchi {
-	constructor (name, health, age) {
+	constructor (name, age, hunger, sleepness, boredom) {
 		this.name = name
-		this.health = 100
-		this.age = 0
+		this.age = age,
+		this.hunger = hunger,
+		this.sleepness = sleepness,
+		this.boredom = boredom
 	}
 };
+
+let goku = new tamagotchi ("goku", 0, 0, 0, 0)
+
+
+console.log(goku)
