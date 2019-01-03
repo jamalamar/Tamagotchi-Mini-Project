@@ -10,7 +10,7 @@ class tamagotchi {
 	}
 };
 
-let goku = new tamagotchi ("goku", 0, 0, 0, 0)
+let goku = new tamagotchi ("goku", 0, 1, 1, 1)
 
 
 console.log(goku)

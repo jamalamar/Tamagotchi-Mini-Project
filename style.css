@@ -3,15 +3,26 @@ div {
 	display: flex;
 }
 
+.input {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
 
 .character {
-	width: 450px;
-	height: 450px;
+	border: 8px black solid; 
+	padding: 15px;
+	width: 350px;
+	height: 350px;
 	margin: auto;
 	align-items: center;
 
 }
 
+
 .btn-group {
 	display: flex;
+	margin-top: 25px;
+	margin-left: 200px;
+	margin-right: 200px;
 }
