@@ -3,7 +3,7 @@ div {
 	display: flex;
 }
 
-.input {
+.choose-name {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
@@ -17,6 +17,17 @@ div {
 	margin: auto;
 	align-items: center;
 
+}
+
+.stats {
+	display: flex;
+	margin: 50px 50px 50px 50px;
+}
+
+
+.bar {
+	display: flex;
+	margin: 0px 0px 0px 310px;
 }
 
 

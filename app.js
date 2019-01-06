@@ -1,4 +1,9 @@
 
+$('#add-name').click(function(){
+	let task = $('#add-name').val()
+	console.log(task);
+});
+
 
 class tamagotchi {
 	constructor (name, age, hunger, sleepness, boredom) {
@@ -10,7 +15,17 @@ class tamagotchi {
 	}
 };
 
-let goku = new tamagotchi ("goku", 0, 1, 1, 1)
 
 
-console.log(goku)
+let age = 0;
+let hunger = 1;
+let sleepness = 1;
+let boredom = 1;
+let name = "";
+
+
+
+let goku = new tamagotchi (name, age, hunger, sleepness, boredom)
+
+
+console.log(goku);
