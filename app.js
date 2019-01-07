@@ -1,6 +1,7 @@
 
+
 $('#add-name').click(function(){
-	document.getElementById('name').innerHTML = "Jamal"
+	$('#name').append($('#name-chosen').val())
 });
 
 
@@ -12,17 +13,17 @@ let boredom = 0;
 // Timer function
  timer = () =>{
 	hunger += 10
-	sleepness += 1
-	boredom += 1
+	sleepness += 5
+	boredom += 5
 };
 
 setInterval(timer(), 1000);
 
 
 //Buttons to reset timers
-document.getElementById('')
-document.getElementById('')
-document.getElementById('')
+document.getElementById('feed')
+document.getElementById('sleep')
+document.getElementById('pet')
 
 
 // Function when tamagotchi dies
