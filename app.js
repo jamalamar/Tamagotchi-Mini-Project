@@ -1,31 +1,41 @@
 
 $('#add-name').click(function(){
-	let task = $('#add-name').val()
-	console.log(task);
+	document.getElementById('name').innerHTML = "Jamal"
 });
 
 
-class tamagotchi {
-	constructor (name, age, hunger, sleepness, boredom) {
-		this.name = name
-		this.age = age,
-		this.hunger = hunger,
-		this.sleepness = sleepness,
-		this.boredom = boredom
-	}
+let age = 0;
+let hunger = 0;
+let sleepness = 0;
+let boredom = 0;
+
+// Timer function
+ timer = () =>{
+	hunger += 10
+	sleepness += 1
+	boredom += 1
+};
+
+setInterval(timer(), 1000);
+
+
+//Buttons to reset timers
+document.getElementById('')
+document.getElementById('')
+document.getElementById('')
+
+
+// Function when tamagotchi dies
+if (hunger>=100 || sleepness>=100 || boredom>=100) {
+	document.getElementById('char').src="image/youdied.jpg";
 };
 
 
-
-let age = 0;
-let hunger = 1;
-let sleepness = 1;
-let boredom = 1;
-let name = "";
+//Change progress bar
+document.getElementById('hunger').innerHTML = hunger + '%';
+document.getElementById('sleepness').innerHTML = sleepness + '%';
+document.getElementById('boredom').innerHTML = boredom + '%';
 
 
 
-let goku = new tamagotchi (name, age, hunger, sleepness, boredom)
 
-
-console.log(goku);
