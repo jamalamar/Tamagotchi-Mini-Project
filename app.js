@@ -1,14 +1,17 @@
 
 
+
+//Add Name Function
 $('#add-name').click(function(){
 	$('#name').append($('#name-chosen').val())
 });
 
-
+//Variables
 let age = 0;
 let hunger = 0;
 let sleepness = 0;
 let boredom = 0;
+
 
 // Timer function
  timer = () =>{
